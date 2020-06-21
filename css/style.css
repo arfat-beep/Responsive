@@ -127,7 +127,7 @@ p{
     transition: transform 0.5s, opacity 0.5s;
 }
 .show-photo li img:hover{
-    transform: scale(1.07);
+    transform: scale(1.02);
     opacity: 1;
 }
 .icon-small{
