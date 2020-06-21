@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #eaeaea;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header{
+    background-color: white;
+}
+.header-logo{
+    display: block;
+    float: left;
+}
+
+.header-nav{
+    float: right;
+    list-style: none;
+}
+
+.header-nav li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.header-nav li:last-child{
+    margin: 0;
+}
+.header-nav li a{
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .2s;
+}
+.header-nav li a:hover{
+    border-bottom: 2px solid #5c792d;
+}
+.section-features{
+    height: 500px;
+    background-image: url(../image/Solo-Sail-Boat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-text-box{
+    margin: 100px auto;
+    text-align: center;
+}
+h1{
+    font-size: 200%;
+    font-weight: 300;
+}
+p{
+    font-size: 50%;
+    margin: 20px 0;
+    
+}
+.btn{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+.ghost-btn{
+    border: 1px solid black;
+    background-color: transparent;
+    margin: 10px auto;
+    transition: background-color .2s;
+}
+.ghost-btn:hover{
+    border: 1px solid black;
+    background-color: #fcabe6;
+}
+
+.whoshe-img{
+    display: inline-block;
+    padding-top: 20px;
+}
+.whoshe{
+    float: left;
+    margin-left: -50px;
+}
+.plan{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 5px;
+    border-radius: 20px;
+}
+.plan:last-child{
+    margin: 20px 0 20px 5px;
+}
+.plan p{
+    line-height: 20px;
+}
+.plan-img{
+    padding: 20px;
+}
+.showcase{
+    background-color: #fff;
+}
+.show-photo
+{
+    width: 100%;
+    list-style: none;
+}
+.show-photo li{
+    
+    display: inline-block;
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    padding: 5px;
+}
+.show-photo li img{
+    opacity: .8;
+    width: 100%;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.show-photo li img:hover{
+    transform: scale(1.07);
+    opacity: 1;
+}
+.icon-small{
+    display: block;
+    line-height: 40px;
+}
+ion-icon{
+    padding-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+input::placeholder,
+textarea::placeholder{
+    color: #cccccc;
+    padding-left: 15px;
+}
+input[type="button"]{
+    color: #9d9d9d;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    
+    border: 1px solid black;
+    background-color: transparent;
+    transition: background-color .2s;
+}
+
+
+input[type="button"]:hover{
+    border: 1px solid black;
+    background-color: #fcabe6;
+}
+footer{
+    height: 200px;
+    background-color: #000;
+}
+footer p{
+    color:#fff;
+    font-size: 100%;
+    margin-top: 100px;
+    text-align:center;
+}
+ h4{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*klsjdghaskjghsd;ljkgsdhflkdsjfsdklf*/
